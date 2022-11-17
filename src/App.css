@@ -4,4 +4,49 @@
 
 body{
   margin: 0;
+  background-color: #9b58b8;
+  color: white;
+  font-family: 'montserrat';
+  padding-top: 50px;
 }
+
+.App{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.test-wrapper{
+  height: 600px;
+  width: 500px;
+}
+
+.test-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.food-pic{
+  height: 100px;
+  width: 100px;
+}
+
+.title{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.food-title{
+  text-align: center;
+}
+
+.food-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
